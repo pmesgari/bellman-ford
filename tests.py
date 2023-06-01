@@ -3,8 +3,8 @@ from helpers import get_files, load
 from main import Topology
 
 
-logs = [x.split('.')[0] for x in get_files('solutions')]
-topologies = [x.split('.')[0] for x in get_files('topologies')]
+logs = ['ComplexTopoHalfed']# [x.split('.')[0] for x in get_files('solutions')]
+topologies = ['ComplexTopoHalfed']# [x.split('.')[0] for x in get_files('topologies')]
 
 test_cases = []
 for t in topologies:
